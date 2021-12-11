@@ -1,7 +1,7 @@
-import classes from './Portfolio.module.css'
+import classes from './Contact.module.css'
 import ContentSection from '../../../UI/ContentSection'
 
-const Portfolio = () => {
+const Contact = () => {
   return (
     <ContentSection className={classes.summary}>
       <h2>Delicious Food</h2>
@@ -11,4 +11,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio;
+export default Contact;

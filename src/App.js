@@ -1,14 +1,32 @@
 import './App.css';
-import Header from './components/Layout/Header/Header'
-import ContentSection from './components/Layout/ContentSection/ContentSection'
+import { Routes, Route, } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Layout/Header/Header';
+
+import AboutMe from './components/Layout/ContentSection/AboutMe/AboutMe';
+import Contact from './components/Layout/ContentSection/Contact/Contact';
+import Portfolio from './components/Layout/ContentSection/Portfolio/Portfolio';
+import Resume from './components/Layout/ContentSection/Resume/Resume';
+import Error from './components/Layout/ContentSection/Error/Error'
+
 import Footer from './components/Layout/Footer/Footer'
+
 
 const App = () => {
   return (
     <div className="App">
-      <Header/>
-      <ContentSection/>
-      <Footer/>
+      <BrowserRouter>
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route element={<Error />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </div>
   );
 }
