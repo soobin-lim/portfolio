@@ -37,7 +37,17 @@ img {
 }
 
 .pbox2{
-  flex-direction: row;
   display: flex;
+  flex-direction: column;
+  align-content:space-between;
   width: 100%;
+}
+
+.logo{
+  width:200px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

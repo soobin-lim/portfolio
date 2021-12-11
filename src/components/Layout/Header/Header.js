@@ -9,7 +9,7 @@ const Header = () => {
       <header className={classes.header}>
         <h1>Soobin Lim</h1>
         <div className={classes.links}>
-          <HeaderLinkText linkText='About Me' route='/' />
+          <HeaderLinkText linkText='About Me' route='/aboutme' />
           <HeaderLinkText linkText='Portfolio' route='portfolio' />
           <HeaderLinkText linkText='Contact' route='contact' />
           <HeaderLinkText linkText='Resume' route='resume' />
