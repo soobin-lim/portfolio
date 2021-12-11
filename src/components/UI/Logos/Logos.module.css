@@ -1,0 +1,13 @@
+.logo{
+  width:200px;
+  background-color: rgb(8, 40, 8);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logo:hover{
+  background-color: rgb(91, 85, 85);
+  cursor: pointer;
+}

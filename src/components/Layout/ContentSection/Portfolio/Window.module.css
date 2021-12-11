@@ -1,0 +1,13 @@
+.window {
+  width: 40px;
+  height: 250px;
+  overflow: hidden;
+  display:inline;
+  margin: 20px;
+}
+
+.window img {
+  width:400px;
+  height:250px;
+  
+}

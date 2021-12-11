@@ -1,12 +1,11 @@
 import classes from './Resume.module.css'
 import ContentSection from '../../../UI/ContentSection'
-
+import resume from '../../../../assets/resume.png'
 const Resume = () => {
   return (
     <ContentSection className={classes.summary}>
-      <h2>Delicious Food</h2>
-      <p>txt1</p>
-      <p>txt2</p>
+      <h2>Resume</h2>
+      <img src={resume} alt='resume'></img>
     </ContentSection>
   )
 }

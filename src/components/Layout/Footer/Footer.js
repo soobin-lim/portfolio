@@ -3,15 +3,12 @@ import classes from './Footer.module.css';
 const Footer = () => {
   return (
     <div className={classes.footer}>
-      <h4>Soobin Lim</h4>
-      <h4>Portfolios</h4>
-      <h4>Portfolio1</h4>
-      <h4>Portfolio2</h4>
-      <h4>Portfolio3</h4>
-      <h4>Contact</h4>
-      <h4>Email</h4>
-      <h4>Github</h4>
-      <h4>Linked In</h4>
+      <h4>Soobin Lim Footer</h4>
+      
+      <h4>Contact sblim.monterrey@gmail.com</h4>
+      <h4>Email sblim.monterrey@gmail.com</h4>
+      <h4>Github http://github.com/soobin-lim</h4>
+      <h4>Linked In https://www.linkedin.com/in/soobin-lim-738835210/</h4>
     </div>
   )
 }
