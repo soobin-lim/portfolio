@@ -16,3 +16,28 @@
   font-size: 2rem;
   margin-top: 0;
 }
+
+img {
+  position: relative;
+  width: 150px;
+  height: auto;
+  border-radius: 15px;
+  align-content: right;
+}
+
+.container {
+  display: flex;
+  flex-direction:column;
+  align-content: flex-start;
+}
+
+.pbox{
+  align-items: flex-start;
+  text-align: left;
+}
+
+.pbox2{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
