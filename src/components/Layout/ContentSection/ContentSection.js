@@ -1,5 +1,5 @@
 import classes from './Portfolio.module.css'
-const MealsSummary = () => {
+const ContentSection = () => {
   return (
     <section className={classes.summary}>
       <h2>Delicious Food</h2>
@@ -9,4 +9,4 @@ const MealsSummary = () => {
   )
 }
 
-export default MealsSummary;
+export default ContentSection;
