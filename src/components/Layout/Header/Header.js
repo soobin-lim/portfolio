@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import classes from './Header.module.css';
-import HeaderLinkText from '../../HeaderLinkText/HeaderLinkText'
+import HeaderLinkText from './HeaderLinkText/HeaderLinkText'
 import headerImage from '../../../assets/img1.jpg'
 
 const Header = props => {
