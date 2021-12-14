@@ -5,6 +5,7 @@ import Logos from '../../../UI/Logos/Logos'
 import project3photo from '../../../../assets/project3.png'
 import fitnessphoto from '../../../../assets/fitnesstracker.png'
 import flightTicketPhoto from '../../../../assets/flightticket.png'
+import carmaterialPhoto from '../../../../assets/carmaterial.png'
 
 const Portfolio = () => {
   const flightTicketUrl='https://marcotorr.github.io/First_Project/'
@@ -16,7 +17,13 @@ const Portfolio = () => {
   const project3Url = 'https://protected-meadow-27063.herokuapp.com/signup'
   const project3Description = 'project3'
 
-  
+  const carmaterialUrl='https://arcane-taiga-08124.herokuapp.com/materialmaster'
+  const carmaterialDescription='material master'
+
+
+
+
+
   return (
     <ContentSection className={classes.summary}>
       <h3>Portfolio</h3>
@@ -36,9 +43,9 @@ const Portfolio = () => {
       <br></br>
       <div>
         <Window
-          imgurl={project3photo}
-          webpageurl={project3Url}
-          description={project3Description}>
+          imgurl={carmaterialPhoto}
+          webpageurl={carmaterialUrl}
+          description={carmaterialDescription}>
         </Window>
         <Window
           imgurl={project3photo}
@@ -46,14 +53,14 @@ const Portfolio = () => {
           description={project3Description}>
         </Window>
       </div>
-      <br></br>
+      {/* <br></br>
       <div>
         <Window
           imgurl={project3photo}
           webpageurl={project3Url}
           description={project3Description}>
         </Window>
-      </div>
+      </div> */}
       <br></br><br></br>
       <Logos />
     </ContentSection>
