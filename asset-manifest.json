@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f7402511.chunk.css",
+    "main.js": "/portfolio/static/js/main.b34ee0e6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b34ee0e6.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.e6d3e198.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e6d3e198.js.map",
+    "static/js/2.bcd59343.chunk.js": "/portfolio/static/js/2.bcd59343.chunk.js",
+    "static/js/2.bcd59343.chunk.js.map": "/portfolio/static/js/2.bcd59343.chunk.js.map",
+    "static/js/3.8702bc18.chunk.js": "/portfolio/static/js/3.8702bc18.chunk.js",
+    "static/js/3.8702bc18.chunk.js.map": "/portfolio/static/js/3.8702bc18.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.f7402511.chunk.css.map": "/portfolio/static/css/main.f7402511.chunk.css.map",
+    "static/js/2.bcd59343.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bcd59343.chunk.js.LICENSE.txt",
+    "static/media/avatarphoto.6fa05cbe.jpg": "/portfolio/static/media/avatarphoto.6fa05cbe.jpg",
+    "static/media/carmaterial.59e62d48.png": "/portfolio/static/media/carmaterial.59e62d48.png",
+    "static/media/fitnesstracker.33635454.png": "/portfolio/static/media/fitnesstracker.33635454.png",
+    "static/media/flightticket.3cde18cf.png": "/portfolio/static/media/flightticket.3cde18cf.png",
+    "static/media/img1.09140f97.jpg": "/portfolio/static/media/img1.09140f97.jpg",
+    "static/media/project3.0726feeb.png": "/portfolio/static/media/project3.0726feeb.png",
+    "static/media/resume.0fbda3bb.png": "/portfolio/static/media/resume.0fbda3bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6d3e198.js",
+    "static/js/2.bcd59343.chunk.js",
+    "static/css/main.f7402511.chunk.css",
+    "static/js/main.b34ee0e6.chunk.js"
+  ]
+}
